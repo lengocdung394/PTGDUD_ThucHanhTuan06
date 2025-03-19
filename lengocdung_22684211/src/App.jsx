@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Bai01  from '../component/Bai01'
-import Bai02 from '../component/Bai02'
+import UseEffect  from '../component/UseEffect.jsx'
+import Todo_API from '../component/Todo_API.jsx'
+import Todo_Aray from '../component/Todo_Array.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <>
-       <Bai01></Bai01> 
-      {/* <Bai02></Bai02> */}
+      <Todo_Aray></Todo_Aray>
     </>
   )
 }

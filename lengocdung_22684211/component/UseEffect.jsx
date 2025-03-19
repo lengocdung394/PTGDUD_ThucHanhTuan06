@@ -6,19 +6,19 @@ const initialState = { result: 0, a: 0, b: 0, operation: "---" };
 function reducer(state, action) {
     switch (action.type) {
         case 'cong':
-            return { 
-                ...state, 
+            return {
+                ...state,
                 a: action.a,        // Cập nhật a
-                b: action.b,   
+                b: action.b,
                 operation: "+",     // Cập nhật b
                 result: action.a + action.b  // Tính kết quả
             };
         case 'tru':
-            return { 
-                ...state, 
+            return {
+                ...state,
                 a: action.a,        // Cập nhật a
-                b: action.b,  
-                operation: "-" ,     // Cập nhật b
+                b: action.b,
+                operation: "-",     // Cập nhật b
                 result: action.a - action.b  // Tính kết quả
             };
         default:
