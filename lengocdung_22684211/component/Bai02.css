@@ -1,17 +1,15 @@
-#recipe-item{
+
+@import "tailwindcss";
+#ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 li{
     list-style-type: none;
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 10px;
     background-color: beige;
-    width: 300px;
+    width: 200px;
     height: 150px;
-}
-#buttonDelete{
-    background-color: red;
-}
-
-#buttonEdit{
-    background-color: greenyellow;
 }
