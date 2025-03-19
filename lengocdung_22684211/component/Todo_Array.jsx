@@ -5,10 +5,10 @@ const initialState = [
     { id: 1, name: 'ReactJS' },
     { id: 2, name: 'Angular' },
     { id: 3, name: 'NodeJS' },
-    { id: 4, name: 'NodeJS' },
-    { id: 5, name: 'NodeJS' },
-    { id: 6, name: 'NodeJS' },
-    { id: 7, name: 'NodeJS' },
+    { id: 4, name: 'Java Script' },
+    { id: 5, name: 'MongoDB' },
+    { id: 6, name: 'Tailwind' },
+    { id: 7, name: 'Lap Trinh Phan Tan voi Cong Nghe Java' },
 
 
 ]
