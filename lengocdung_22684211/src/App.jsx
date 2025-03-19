@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      {/* <Bai01></Bai01> */}
-      <Bai02></Bai02>
+       <Bai01></Bai01> 
+      {/* <Bai02></Bai02> */}
     </>
   )
 }
